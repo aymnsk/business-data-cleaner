@@ -1,7 +1,8 @@
 """
 Business Data Cleaner - A simple tool to automate cleaning messy CSV files.
 Cleans dates, standardizes currency, removes duplicates.
-"""
+ETL script for cleaning business CSV data. Removes duplicates, standardizes formats, handles missing values."""
+
 
 import pandas as pd
 import argparse
